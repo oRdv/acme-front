@@ -17,10 +17,10 @@ async function preencherContainer(){
 
     const filmes = [
         {
-            nome:'Tamires Fernandes'
+            // nome:'Tamires Fernandes'
         },
         {
-            nome:'AAAAAAAA'
+            // nome:'AAAAAAAA'
 
         }
     ]
@@ -32,6 +32,6 @@ async function preencherContainer(){
     })
 }
 
-preencherContainer()
+// preencherContainer()
 
-console.table(await getFilme(2))
+// console.table(await getFilme(2))

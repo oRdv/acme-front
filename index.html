@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/jpg" href="./img/logo.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/root.css">
+        <link rel="stylesheet" href="./css/login.css">
+        <link rel="stylesheet" href="./css/button.css">
     <script src="./js/main.js" type="module" defer></script>
     <title>Acme Filmes</title>
 </head>
 <body>
+    <main>
+        <div class="login-container">
+            <div class="container-blue">
+                <div class="image-container">
+                    <div class="text">
+                        <p>Acme Filmes</p>
+                    </div>
+                    <img src="./img/logo.png" alt="slogan-image" class="slogan-image">
+                </div>
+                <div class="container-p">
+                    <div class="input-container">
+                        <p>Sign up!</p>
+                        <p>Username</p>
+                        <input type="text" placeholder="Insira seu email..." id="email">
+                        <p>Password</p>
+                        <input type="password" placeholder="Insira sua senha..." id="password">
+                        <div class="button-container">
+                            <button class="button" id="login">Login</button>
+                            <p>Não tem uma conta? <a href="./pages/signup.html"> Cadastre-se</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     
 </body>
 </html>

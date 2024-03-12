@@ -1,4 +1,4 @@
-import {getFilmes, getFilme} from "./filme.js"
+import {getFilmes, getFilme, postFilme} from "./filme.js"
 
 function preencherCards(filme){
     const card = document.createElement('div')
@@ -30,6 +30,21 @@ async function preencherContainer(){
         const card = preencherCards(filme)
         container.appendChild(card)
     })
+}
+
+const filme = {
+    "nome": "O Segredo do Vale",
+    "sinopse":"Um drama emocionante...",
+    "duracao":"02:35:00",
+    "data_lancamento":"2022-08-25",
+    "data_relancamento": null,
+    "foto_capa":"https://exemplo.com/foto_vale.jpg",
+    "valor_unitario": 129
+}
+
+async function teste() {
+     postFilme(filme)
+
 }
 
 // preencherContainer()
